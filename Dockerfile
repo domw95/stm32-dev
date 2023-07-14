@@ -16,8 +16,8 @@ ENV PATH="${PATH}:${ARM_GNU_DIR}/bin"
 RUN arm-none-eabi-gcc --version
 
 # Install other tools
-RUN apt install -y git stlink-tools openocd make cmake \
+RUN apt install -y git stlink-tools openocd make cmake 
 
 
 # Endless loop
-ENTRYPOINT ["tail", "-f", "/dev/null"]
+# ENTRYPOINT ["tail", "-f", "/dev/null"]
