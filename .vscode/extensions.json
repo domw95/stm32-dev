@@ -1,11 +1,12 @@
 {
     "recommendations": [
-        "ms-vscode-remote.remote-containers",
-        "ms-vscode.cpptools",
-        "ms-azuretools.vscode-docker",
-        "marus25.cortex-debug",
         "ms-vscode-remote.remote-ssh",
-        "ms-vscode-remote.vscode-remote-extensionpack",
-        "ms-vscode.cmake-tools"
+        "ms-vscode-remote.vscode-remote-extensionpack",        
+        "ms-vscode-remote.remote-containers",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode.cpptools",        
+        "marus25.cortex-debug",
+        "bmd.stm32-for-vscode",
+        "ms-vscode.cmake-tools",
     ]
 }
