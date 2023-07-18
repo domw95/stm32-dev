@@ -1,0 +1,12 @@
+[submodule "stm32f7xx_hal_driver"]
+	path = stm32f7xx_hal_driver
+	url = https://github.com/STMicroelectronics/stm32f7xx_hal_driver
+[submodule "cmsis_device_f7"]
+	path = cmsis_device_f7
+	url = https://github.com/STMicroelectronics/cmsis_device_f7
+[submodule "cmsis_core"]
+	path = cmsis_core
+	url = https://github.com/STMicroelectronics/cmsis_core
+[submodule "STM32CubeF7"]
+	path = STM32CubeF7
+	url = https://github.com/STMicroelectronics/STM32CubeF7

@@ -15,8 +15,13 @@ RUN tar xf "arm-gnu-toolchain-${ARM_GNU_VERSION}-x86_64-arm-none-eabi.tar.xz" --
 ENV PATH="${PATH}:${ARM_GNU_DIR}/bin"
 RUN arm-none-eabi-gcc --version
 
+# Pyton required for GDB
+RUN apt install software-properties-common -y
+RUN add-apt-repository ppa:deadsnakes/ppa -y
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends python3.8 
+
 # Install other tools
-RUN apt install -y git stlink-tools openocd make cmake 
+RUN apt install -y git stlink-tools openocd make cmake bsdextrautils libncursesw5
 
 
 # Endless loop
