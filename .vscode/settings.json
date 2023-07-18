@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "stm32f746xx.h": "c",
+        "stdio.h": "c",
+        "limits": "c",
+        "*.tcc": "c",
+        "math.h": "c"
+    },
+}

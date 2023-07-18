@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "STM32F746xx",
+            "includePath": [
+                "./**"
+            ],
+            "defines": [
+                "STM32F746xx"
+            ],
+            "cStandard": "gnu11",
+            "intelliSenseMode": "linux-gcc-arm",
+            "compilerPath": "/opt/arm-gnu/bin/arm-none-eabi-gcc",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
