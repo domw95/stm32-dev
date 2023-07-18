@@ -12,12 +12,14 @@
 	"vscode": {
 		"extensions": [
 			"bmd.stm32-for-vscode",
-			"ms-vscode.cpptools",
 			"marus25.cortex-debug",
-			"ms-vscode.cmake-tools"
+			"ms-vscode.cpptools-extension-pack",
+			"ms-vscode.makefile-tools"
 		]
 	}
-}
+},
+"privileged": true
+
 
   // Features to add to the dev container. More info: https://containers.dev/features.
   // "features": {},
